@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EF52EE32-FDDB-4F22-BC12-1F3D50539B0E}</ProjectGuid>
+    <RootNamespace>eiTemplate</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>visa32.lib;htmlhelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\11a.bmp" />
+    <None Include="..\..\mac_a.bmp" />
+    <None Include="protocol\11n\GeneralFunction.suo" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\about.bmp" />
+    <None Include="res\bitmap5.bmp" />
+    <None Include="res\ccdf.bmp" />
+    <None Include="res\diagram_frame1.bmp" />
+    <None Include="res\diagram_frame2.bmp" />
+    <None Include="res\diagram_frame3.bmp" />
+    <None Include="res\diagram_mac1.bmp" />
+    <None Include="res\diagram_mac2.bmp" />
+    <None Include="res\diagram_mac3.bmp" />
+    <None Include="res\eiTemplate.ico" />
+    <None Include="res\eiTemplate.rc2" />
+    <None Include="res\eiTemplateDoc.ico" />
+    <None Include="res\icon_tollbar_save.ico" />
+    <None Include="res\icon_toolbar_new.ico" />
+    <None Include="res\icon_toolbar_open.ico" />
+    <None Include="res\image_instrument\1.bmp" />
+    <None Include="res\image_instrument\1.png" />
+    <None Include="res\image_instrument\2.bmp" />
+    <None Include="res\image_instrument\2.png" />
+    <None Include="res\image_instrument\3.bmp" />
+    <None Include="res\image_instrument\3.png" />
+    <None Include="res\image_instrument\4.bmp" />
+    <None Include="res\image_instrument\4.png" />
+    <None Include="res\image_instrument\5.bmp" />
+    <None Include="res\image_instrument\5.png" />
+    <None Include="res\image_instrument\6.bmp" />
+    <None Include="res\image_instrument\6.png" />
+    <None Include="res\new_tool_icon\1.bmp" />
+    <None Include="res\new_tool_icon\1.ico" />
+    <None Include="res\new_tool_icon\2.bmp" />
+    <None Include="res\new_tool_icon\2.ico" />
+    <None Include="res\new_tool_icon\3.bmp" />
+    <None Include="res\new_tool_icon\3.ico" />
+    <None Include="res\new_tool_icon\4.bmp" />
+    <None Include="res\new_tool_icon\4.ico" />
+    <None Include="res\new_tool_icon\5.bmp" />
+    <None Include="res\new_tool_icon\5.ico" />
+    <None Include="res\new_tool_icon\6.bmp" />
+    <None Include="res\new_tool_icon\6.ico" />
+    <None Include="res\new_tool_icon\7.bmp" />
+    <None Include="res\new_tool_icon\7.ico" />
+    <None Include="res\new_tool_icon\8.bmp" />
+    <None Include="res\new_tool_icon\8.ico" />
+    <None Include="res\new_tool_icon\run.ico" />
+    <None Include="res\startup.bmp" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\toolbar1.bmp" />
+    <None Include="res\wave.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C.h" />
+    <ClInclude Include="Cframe.h" />
+    <ClInclude Include="CframeB.h" />
+    <ClInclude Include="CframeConfig.h" />
+    <ClInclude Include="CframeconfigB.h" />
+    <ClInclude Include="CframeconfigG.h" />
+    <ClInclude Include="CframeG.h" />
+    <ClInclude Include="CframeGeneralB.h" />
+    <ClInclude Include="CframeGeneralG.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="config_hard.h" />
+    <ClInclude Include="crc16.h" />
+    <ClInclude Include="define_param.h" />
+    <ClInclude Include="eiTemplate.h" />
+    <ClInclude Include="eiTemplateDoc.h" />
+    <ClInclude Include="eiTemplateView.h" />
+    <ClInclude Include="filterfunc.h" />
+    <ClInclude Include="filterfuncn.h" />
+    <ClInclude Include="filter_para.h" />
+    <ClInclude Include="FrameGeneral.h" />
+    <ClInclude Include="func.h" />
+    <ClInclude Include="GraphCCDF.h" />
+    <ClInclude Include="GraphWAVE.h" />
+    <ClInclude Include="libs\SignalSource.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MPDUGeneral.h" />
+    <ClInclude Include="MpduPara.h" />
+    <ClInclude Include="MySplitterWnd.h" />
+    <ClInclude Include="protocol\11a\configA.h" />
+    <ClInclude Include="protocol\11a\ProtocolA.h" />
+    <ClInclude Include="protocol\11b\complex.h" />
+    <ClInclude Include="protocol\11b\configB.h" />
+    <ClInclude Include="protocol\11b\crc16.h" />
+    <ClInclude Include="protocol\11b\ProtocolB.h" />
+    <ClInclude Include="protocol\11g\configG.h" />
+    <ClInclude Include="protocol\11g\ProtocolG.h" />
+    <ClInclude Include="protocol\11n\channel.h" />
+    <ClInclude Include="protocol\11n\configN.h" />
+    <ClInclude Include="protocol\11n\constants_def.h" />
+    <ClInclude Include="protocol\11n\DataSym.h" />
+    <ClInclude Include="protocol\11n\E_HT_MCStable.h" />
+    <ClInclude Include="protocol\11n\ifft.h" />
+    <ClInclude Include="protocol\11n\InterfaceClass.h" />
+    <ClInclude Include="protocol\11n\itu_crc32.h" />
+    <ClInclude Include="protocol\11n\ldpc_encode.h" />
+    <ClInclude Include="protocol\11n\preambleFunc.h" />
+    <ClInclude Include="protocol\11n\primaryFunctionalFunc.h" />
+    <ClInclude Include="protocol\11n\Qmatrix_gen.h" />
+    <ClInclude Include="protocol\11n\scramble.h" />
+    <ClInclude Include="protocol\11n\transform_bits_num.h" />
+    <ClInclude Include="protocol\11n\wlan_const_set.h" />
+    <ClInclude Include="protocol\11n\wlan_txparam.h" />
+    <ClInclude Include="rapidxml\rapidxml.hpp" />
+    <ClInclude Include="rapidxml\rapidxml_iterators.hpp" />
+    <ClInclude Include="rapidxml\rapidxml_print.hpp" />
+    <ClInclude Include="rapidxml\rapidxml_utils.hpp" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Splash.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SysConfigWizard.h" />
+    <ClInclude Include="SysConfigWizardStep1.h" />
+    <ClInclude Include="SysConfigWizardStep2.h" />
+    <ClInclude Include="SysConfigWizardStep3.h" />
+    <ClInclude Include="SysConfigWizardStep3ViewDetail.h" />
+    <ClInclude Include="SysConfigWizardStep4.h" />
+    <ClInclude Include="SysConfigWizardStep5.h" />
+    <ClInclude Include="SysConfigWizardStep6.h" />
+    <ClInclude Include="TabCarrier.h" />
+    <ClInclude Include="TabInstrument.h" />
+    <ClInclude Include="TabMac.h" />
+    <ClInclude Include="TabParent.h" />
+    <ClInclude Include="TabProtocolConfig.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="visa.h" />
+    <ClInclude Include="visatype.h" />
+    <ClInclude Include="W.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C.cpp" />
+    <ClCompile Include="Cframe.cpp" />
+    <ClCompile Include="CframeB.cpp" />
+    <ClCompile Include="CframeConfig.cpp" />
+    <ClCompile Include="CframeconfigB.cpp" />
+    <ClCompile Include="CframeconfigG.cpp" />
+    <ClCompile Include="CframeG.cpp" />
+    <ClCompile Include="CframeGeneralB.cpp" />
+    <ClCompile Include="CframeGeneralG.cpp" />
+    <ClCompile Include="crc16.cpp" />
+    <ClCompile Include="eiTemplate.cpp" />
+    <ClCompile Include="eiTemplateDoc.cpp" />
+    <ClCompile Include="eiTemplateView.cpp" />
+    <ClCompile Include="FrameGeneral.cpp" />
+    <ClCompile Include="func.cpp" />
+    <ClCompile Include="GraphCCDF.cpp" />
+    <ClCompile Include="GraphWAVE.cpp" />
+    <ClCompile Include="libs\SignalSource.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MPDUGeneral.cpp" />
+    <ClCompile Include="MySplitterWnd.cpp" />
+    <ClCompile Include="protocol\11a\ProtocolA.cpp" />
+    <ClCompile Include="protocol\11b\complex.cpp" />
+    <ClCompile Include="protocol\11b\ieee802.11b.cpp" />
+    <ClCompile Include="protocol\11b\ProtocolB.cpp" />
+    <ClCompile Include="protocol\11g\ProtocolG.cpp" />
+    <ClCompile Include="protocol\11n\applyLdpcEnc_ac.cpp" />
+    <ClCompile Include="protocol\11n\bcc_encoder.cpp" />
+    <ClCompile Include="protocol\11n\bitrev.cpp" />
+    <ClCompile Include="protocol\11n\constants_def.cpp" />
+    <ClCompile Include="protocol\11n\conve.cpp" />
+    <ClCompile Include="protocol\11n\crc32.cpp" />
+    <ClCompile Include="protocol\11n\crc8.cpp" />
+    <ClCompile Include="protocol\11n\cshifts.cpp" />
+    <ClCompile Include="protocol\11n\DataSym.cpp" />
+    <ClCompile Include="protocol\11n\fcycdel_g.cpp" />
+    <ClCompile Include="protocol\11n\fd2td_g.cpp" />
+    <ClCompile Include="protocol\11n\InterfaceClass.cpp" />
+    <ClCompile Include="protocol\11n\interleave_n.cpp" />
+    <ClCompile Include="protocol\11n\ldpc_encoder.cpp" />
+    <ClCompile Include="protocol\11n\ldpc_encpara_g.cpp" />
+    <ClCompile Include="protocol\11n\mcs_tbl_ac.cpp" />
+    <ClCompile Include="protocol\11n\parityMatrixGen.cpp" />
+    <ClCompile Include="protocol\11n\pilot_map.cpp" />
+    <ClCompile Include="protocol\11n\pilot_seq.cpp" />
+    <ClCompile Include="protocol\11n\preambleFunc.cpp" />
+    <ClCompile Include="protocol\11n\qam_map.cpp" />
+    <ClCompile Include="protocol\11n\qam_map256.cpp" />
+    <ClCompile Include="protocol\11n\scramble.cpp" />
+    <ClCompile Include="protocol\11n\segment_parser.cpp" />
+    <ClCompile Include="protocol\11n\stream_parser.cpp" />
+    <ClCompile Include="protocol\11n\transform_bits_num.cpp" />
+    <ClCompile Include="protocol\11n\txSymbolAssembly.cpp" />
+    <ClCompile Include="protocol\11n\wlan_consts_valueEXTERN.cpp" />
+    <ClCompile Include="protocol\11n\wlan_txparam.cpp" />
+    <ClCompile Include="scale.cpp" />
+    <ClCompile Include="Splash.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SysConfigWizard.cpp" />
+    <ClCompile Include="SysConfigWizardStep1.cpp" />
+    <ClCompile Include="SysConfigWizardStep2.cpp" />
+    <ClCompile Include="SysConfigWizardStep3.cpp" />
+    <ClCompile Include="SysConfigWizardStep3ViewDetail.cpp" />
+    <ClCompile Include="SysConfigWizardStep4.cpp" />
+    <ClCompile Include="SysConfigWizardStep5.cpp" />
+    <ClCompile Include="SysConfigWizardStep6.cpp" />
+    <ClCompile Include="TabCarrier.cpp" />
+    <ClCompile Include="TabInstrument.cpp" />
+    <ClCompile Include="TabMac.cpp" />
+    <ClCompile Include="TabParent.cpp" />
+    <ClCompile Include="TabProtocolConfig.cpp" />
+    <ClCompile Include="W.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="eiTemplate.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="eiTemplate.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

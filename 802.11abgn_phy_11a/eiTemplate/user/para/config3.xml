@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='GB2312' ?>
+<parameters>
+	<11a>
+		<DataRate>6</DataRate>
+		<InData_Complex>Ture</InData_Complex>
+		<MAX_Delay_Sample>50</MAX_Delay_Sample>
+		<NumofTaps>4</NumofTaps>
+		<add_channel>False</add_channel>
+		<datainmaxlen>4061</datainmaxlen>
+		<filepath>None</filepath>
+		<mobilespeed>30</mobilespeed>
+		<source_length>80</source_length>
+		<source_mode>0</source_mode>
+	</11a>
+</parameters>
+

@@ -1,0 +1,700 @@
+﻿生成启动时间为 2017/7/18 10:34:54。
+     1>项目“E:\802.11abgn_phy_11a\eiTemplate\eiTemplate.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Release\eiTemplate.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         F:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\eiTemplate.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>e:\802.11abgn_phy_11a\eitemplate\BlueToothParams.h(66): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+     1>e:\802.11abgn_phy_11a\eitemplate\BlueToothParams.h(67): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+     1>e:\802.11abgn_phy_11a\eitemplate\BlueToothParams.h(68): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+     1>e:\802.11abgn_phy_11a\eitemplate\BlueToothParams.h(69): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+         F:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\eiTemplate.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt C.cpp Cframe.cpp CframeB.cpp CframeConfig.cpp CframeconfigB.cpp CframeconfigG.cpp CframeG.cpp CframeGeneralB.cpp CframeGeneralG.cpp crc16.cpp eiTemplate.cpp eiTemplateDoc.cpp eiTemplateView.cpp FrameGeneral.cpp func.cpp GraphCCDF.cpp GraphWAVE.cpp libs\SignalSource.cpp MainFrm.cpp MPDUGeneral.cpp MySplitterWnd.cpp protocol\11a\ProtocolA.cpp protocol\11b\complex.cpp protocol\11b\ieee802.11b.cpp protocol\11b\ProtocolB.cpp protocol\11g\ProtocolG.cpp protocol\11n\applyLdpcEnc_ac.cpp protocol\11n\bcc_encoder.cpp protocol\11n\bitrev.cpp protocol\11n\constants_def.cpp protocol\11n\conve.cpp protocol\11n\crc32.cpp protocol\11n\crc8.cpp protocol\11n\cshifts.cpp protocol\11n\DataSym.cpp protocol\11n\fcycdel_g.cpp protocol\11n\fd2td_g.cpp protocol\11n\InterfaceClass.cpp protocol\11n\interleave_n.cpp protocol\11n\ldpc_encoder.cpp protocol\11n\ldpc_encpara_g.cpp protocol\11n\mcs_tbl_ac.cpp protocol\11n\parityMatrixGen.cpp protocol\11n\pilot_map.cpp protocol\11n\pilot_seq.cpp protocol\11n\preambleFunc.cpp protocol\11n\qam_map.cpp protocol\11n\qam_map256.cpp protocol\11n\scramble.cpp protocol\11n\segment_parser.cpp protocol\11n\stream_parser.cpp protocol\11n\transform_bits_num.cpp protocol\11n\txSymbolAssembly.cpp protocol\11n\wlan_consts_valueEXTERN.cpp protocol\11n\wlan_txparam.cpp scale.cpp Splash.cpp SysConfigWizard.cpp SysConfigWizardStep1.cpp SysConfigWizardStep2.cpp SysConfigWizardStep3.cpp SysConfigWizardStep3ViewDetail.cpp SysConfigWizardStep4.cpp SysConfigWizardStep5.cpp SysConfigWizardStep6.cpp TabCarrier.cpp TabInstrument.cpp TabMac.cpp TabParent.cpp TabProtocolConfig.cpp W.cpp
+         C.cpp
+     1>C.cpp(34): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>C.cpp(35): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>C.cpp(88): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>C.cpp(117): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>C.cpp(118): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>C.cpp(126): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>C.cpp(127): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>C.cpp(134): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>C.cpp(147): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>C.cpp(148): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>C.cpp(184): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>C.cpp(185): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>C.cpp(193): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>C.cpp(194): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>C.cpp(201): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>C.cpp(214): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>C.cpp(215): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>C.cpp(272): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>C.cpp(302): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>C.cpp(345): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>C.cpp(375): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>C.cpp(437): warning C4244: “=”: 从“float”转换到“LONG”，可能丢失数据
+     1>C.cpp(438): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>C.cpp(454): warning C4244: “=”: 从“float”转换到“LONG”，可能丢失数据
+     1>C.cpp(455): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+         Cframe.cpp
+         CframeB.cpp
+         CframeConfig.cpp
+         CframeconfigB.cpp
+         CframeconfigG.cpp
+         CframeG.cpp
+         CframeGeneralB.cpp
+         CframeGeneralG.cpp
+         crc16.cpp
+         eiTemplate.cpp
+         eiTemplateDoc.cpp
+         eiTemplateView.cpp
+         FrameGeneral.cpp
+         func.cpp
+     1>func.cpp(19): warning C4101: “DataMax”: 未引用的局部变量
+     1>func.cpp(125): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         GraphCCDF.cpp
+         GraphWAVE.cpp
+         SignalSource.cpp
+         MainFrm.cpp
+     1>e:\802.11abgn_phy_11a\eitemplate\protocol/11n/channel.h(294): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>e:\802.11abgn_phy_11a\eitemplate\protocol/11n/channel.h(298): warning C4101: “pow1”: 未引用的局部变量
+     1>e:\802.11abgn_phy_11a\eitemplate\protocol/11n/channel.h(298): warning C4101: “pow2”: 未引用的局部变量
+     1>e:\802.11abgn_phy_11a\eitemplate\protocol/11n/channel.h(1065): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\802.11abgn_phy_11a\eitemplate\protocol/11n/channel.h(1066): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>e:\802.11abgn_phy_11a\eitemplate\protocol/11n/channel.h(603): warning C4101: “output_i”: 未引用的局部变量
+     1>e:\802.11abgn_phy_11a\eitemplate\filterfuncn.h(72): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\802.11abgn_phy_11a\eitemplate\filterfuncn.h(84): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\802.11abgn_phy_11a\eitemplate\filterfuncn.h(94): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\802.11abgn_phy_11a\eitemplate\define_param.h(16): warning C4005: “PI”: 宏重定义
+                 e:\802.11abgn_phy_11a\eitemplate\protocol/11n/channel.h(18) : 参见“PI”的前一个定义
+     1>MainFrm.cpp(589): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(564) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(589): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(564) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(589): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(564) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(591): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(564) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(591): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(564) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(675): warning C4258: “j”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(666) : 忽略“j”的定义
+                 MainFrm.cpp(517) : 使用“j”的定义
+     1>MainFrm.cpp(675): warning C4258: “j”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(666) : 忽略“j”的定义
+                 MainFrm.cpp(517) : 使用“j”的定义
+     1>MainFrm.cpp(675): warning C4258: “j”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(666) : 忽略“j”的定义
+                 MainFrm.cpp(517) : 使用“j”的定义
+     1>MainFrm.cpp(677): warning C4258: “j”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(666) : 忽略“j”的定义
+                 MainFrm.cpp(517) : 使用“j”的定义
+     1>MainFrm.cpp(677): warning C4258: “j”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(666) : 忽略“j”的定义
+                 MainFrm.cpp(517) : 使用“j”的定义
+     1>MainFrm.cpp(678): warning C4258: “j”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(666) : 忽略“j”的定义
+                 MainFrm.cpp(517) : 使用“j”的定义
+     1>MainFrm.cpp(678): warning C4258: “j”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(666) : 忽略“j”的定义
+                 MainFrm.cpp(517) : 使用“j”的定义
+     1>MainFrm.cpp(678): warning C4258: “j”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(666) : 忽略“j”的定义
+                 MainFrm.cpp(517) : 使用“j”的定义
+     1>MainFrm.cpp(678): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>MainFrm.cpp(707): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>MainFrm.cpp(740): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(655) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(740): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(655) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(740): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(655) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(742): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(655) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(742): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(655) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(742): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(655) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(828): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(814) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(828): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(814) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(828): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(814) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(830): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(814) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(830): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(814) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(931): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>MainFrm.cpp(960): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>MainFrm.cpp(992): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(907) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(992): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(907) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(992): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(907) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(994): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(907) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(994): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(907) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(994): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(907) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(1079): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(1063) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(1079): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(1063) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(1079): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(1063) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(1081): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(1063) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(1081): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(1063) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(1178): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>MainFrm.cpp(1205): warning C4258: “m”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(1199) : 忽略“m”的定义
+                 MainFrm.cpp(517) : 使用“m”的定义
+     1>MainFrm.cpp(1205): warning C4258: “m”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(1199) : 忽略“m”的定义
+                 MainFrm.cpp(517) : 使用“m”的定义
+     1>MainFrm.cpp(1205): warning C4258: “m”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(1199) : 忽略“m”的定义
+                 MainFrm.cpp(517) : 使用“m”的定义
+     1>MainFrm.cpp(1207): warning C4258: “m”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(1199) : 忽略“m”的定义
+                 MainFrm.cpp(517) : 使用“m”的定义
+     1>MainFrm.cpp(1207): warning C4258: “m”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(1199) : 忽略“m”的定义
+                 MainFrm.cpp(517) : 使用“m”的定义
+     1>MainFrm.cpp(1208): warning C4258: “m”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(1199) : 忽略“m”的定义
+                 MainFrm.cpp(517) : 使用“m”的定义
+     1>MainFrm.cpp(1208): warning C4258: “m”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(1199) : 忽略“m”的定义
+                 MainFrm.cpp(517) : 使用“m”的定义
+     1>MainFrm.cpp(1208): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>MainFrm.cpp(1438): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>MainFrm.cpp(1462): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>MainFrm.cpp(1462): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>MainFrm.cpp(1462): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>MainFrm.cpp(1462): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>MainFrm.cpp(1462): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>MainFrm.cpp(1647): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>MainFrm.cpp(1674): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>MainFrm.cpp(1700): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(1624) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(1700): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(1624) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(1700): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(1624) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(1702): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(1624) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(1702): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(1624) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(1702): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 MainFrm.cpp(1624) : 忽略“i”的定义
+                 MainFrm.cpp(517) : 使用“i”的定义
+     1>MainFrm.cpp(1973): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>MainFrm.cpp(1998): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>MainFrm.cpp(2023): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>MainFrm.cpp(2052): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>MainFrm.cpp(2058): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>MainFrm.cpp(2298): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>MainFrm.cpp(2484): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 F:\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 参见“itoa”的声明
+     1>MainFrm.cpp(2485): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 F:\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 参见“itoa”的声明
+     1>MainFrm.cpp(2486): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 F:\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 参见“itoa”的声明
+     1>MainFrm.cpp(2487): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 F:\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 参见“itoa”的声明
+     1>MainFrm.cpp(2488): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 F:\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 参见“itoa”的声明
+     1>MainFrm.cpp(2491): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 F:\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 参见“itoa”的声明
+     1>MainFrm.cpp(2492): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 F:\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 参见“itoa”的声明
+     1>MainFrm.cpp(2494): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>MainFrm.cpp(2495): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 F:\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 参见“itoa”的声明
+     1>MainFrm.cpp(2496): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 F:\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 参见“itoa”的声明
+     1>MainFrm.cpp(2498): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>MainFrm.cpp(2499): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 F:\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 参见“itoa”的声明
+     1>MainFrm.cpp(2500): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>MainFrm.cpp(2501): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 F:\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 参见“itoa”的声明
+     1>MainFrm.cpp(2502): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>MainFrm.cpp(2503): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 F:\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 参见“itoa”的声明
+     1>e:\802.11abgn_phy_11a\eitemplate\rapidxml/rapidxml_utils.hpp(40): warning C4244: “初始化”: 从“std::streamoff”转换到“size_t”，可能丢失数据
+                 e:\802.11abgn_phy_11a\eitemplate\rapidxml/rapidxml_utils.hpp(28): 编译类 模板 成员函数“rapidxml::file<>::file(const char *)”时
+                 MainFrm.cpp(2195): 参见对正在编译的类 模板 实例化“rapidxml::file<>”的引用
+         MPDUGeneral.cpp
+         正在编译...
+         MySplitterWnd.cpp
+         ProtocolA.cpp
+     1>e:\802.11abgn_phy_11a\eitemplate\protocol\11a\../../filterfunc.h(69): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\802.11abgn_phy_11a\eitemplate\protocol\11a\../../filterfunc.h(81): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\802.11abgn_phy_11a\eitemplate\protocol\11a\../../filterfunc.h(91): warning C4018: “<”: 有符号/无符号不匹配
+     1>protocol\11a\ProtocolA.cpp(380): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(384): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(385): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(386): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(387): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(388): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(389): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(390): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(391): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(395): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(396): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(397): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(401): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(404): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(405): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(426): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(427): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(428): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(429): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(430): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(432): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(451): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(455): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(459): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(466): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(470): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(481): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(490): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(492): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(496): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(508): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(509): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(510): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(511): warning C4309: “=”: 截断常量值
+     1>protocol\11a\ProtocolA.cpp(1130): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11a\ProtocolA.cpp(1157): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11a\ProtocolA.cpp(1166): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11a\ProtocolA.cpp(1175): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11a\ProtocolA.cpp(1184): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11a\ProtocolA.cpp(1193): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11a\ProtocolA.cpp(1202): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11a\ProtocolA.cpp(1211): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11a\ProtocolA.cpp(1220): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11a\ProtocolA.cpp(1255): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11a\ProtocolA.cpp(1262): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11a\ProtocolA.cpp(2014): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11a\ProtocolA.cpp(2070): warning C4101: “TONES”: 未引用的局部变量
+     1>protocol\11a\ProtocolA.cpp(2202): warning C4101: “n”: 未引用的局部变量
+     1>protocol\11a\ProtocolA.cpp(2327): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11a\ProtocolA.cpp(2330): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11a\ProtocolA.cpp(2336): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11a\ProtocolA.cpp(2342): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11a\ProtocolA.cpp(2383): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11a\ProtocolA.cpp(2389): warning C4244: “参数”: 从“double”转换到“long”，可能丢失数据
+         complex.cpp
+         ieee802.11b.cpp
+         ProtocolB.cpp
+     1>protocol\11b\ProtocolB.cpp(56): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>protocol\11b\ProtocolB.cpp(154): warning C4018: “<”: 有符号/无符号不匹配
+     1>protocol\11b\ProtocolB.cpp(211): warning C4018: “<”: 有符号/无符号不匹配
+     1>protocol\11b\ProtocolB.cpp(1492): warning C4101: “TONES”: 未引用的局部变量
+     1>protocol\11b\ProtocolB.cpp(1624): warning C4101: “n”: 未引用的局部变量
+     1>protocol\11b\ProtocolB.cpp(1784): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11b\ProtocolB.cpp(1786): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11b\ProtocolB.cpp(1798): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11b\ProtocolB.cpp(1811): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11b\ProtocolB.cpp(1850): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11b\ProtocolB.cpp(1881): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11b\ProtocolB.cpp(1904): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11b\ProtocolB.cpp(1954): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11b\ProtocolB.cpp(1960): warning C4244: “参数”: 从“double”转换到“long”，可能丢失数据
+     1>protocol\11b\ProtocolB.cpp(2092): warning C4018: “<”: 有符号/无符号不匹配
+     1>protocol\11b\ProtocolB.cpp(2104): warning C4018: “<”: 有符号/无符号不匹配
+     1>protocol\11b\ProtocolB.cpp(2114): warning C4018: “<”: 有符号/无符号不匹配
+         ProtocolG.cpp
+     1>protocol\11g\ProtocolG.cpp(40): warning C4309: “=”: 截断常量值
+     1>protocol\11g\ProtocolG.cpp(40): warning C4309: “=”: 截断常量值
+     1>protocol\11g\ProtocolG.cpp(40): warning C4309: “=”: 截断常量值
+     1>protocol\11g\ProtocolG.cpp(40): warning C4309: “=”: 截断常量值
+     1>protocol\11g\ProtocolG.cpp(40): warning C4309: “=”: 截断常量值
+     1>protocol\11g\ProtocolG.cpp(41): warning C4309: “=”: 截断常量值
+     1>protocol\11g\ProtocolG.cpp(41): warning C4309: “=”: 截断常量值
+     1>protocol\11g\ProtocolG.cpp(41): warning C4309: “=”: 截断常量值
+     1>protocol\11g\ProtocolG.cpp(41): warning C4309: “=”: 截断常量值
+     1>protocol\11g\ProtocolG.cpp(41): warning C4309: “=”: 截断常量值
+     1>protocol\11g\ProtocolG.cpp(182): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(228): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(272): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(281): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(290): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(299): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(308): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(317): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(326): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(335): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(375): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(382): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(516): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(584): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(824): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(832): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(1042): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(1058): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(1059): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(1060): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(1417): warning C4018: “<”: 有符号/无符号不匹配
+     1>protocol\11g\ProtocolG.cpp(1448): warning C4018: “<”: 有符号/无符号不匹配
+     1>protocol\11g\ProtocolG.cpp(1501): warning C4018: “<”: 有符号/无符号不匹配
+     1>protocol\11g\ProtocolG.cpp(1563): warning C4018: “<”: 有符号/无符号不匹配
+     1>protocol\11g\ProtocolG.cpp(3037): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(3092): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(3095): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(3101): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(3107): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(3367): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(3378): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(3391): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(3444): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(3463): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(3483): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(3516): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(3518): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(3523): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(3528): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(3608): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(3618): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(3631): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(3661): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(3710): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(3716): warning C4244: “参数”: 从“double”转换到“long”，可能丢失数据
+     1>protocol\11g\ProtocolG.cpp(3779): warning C4101: “TONES”: 未引用的局部变量
+     1>protocol\11g\ProtocolG.cpp(3911): warning C4101: “n”: 未引用的局部变量
+     1>protocol\11g\ProtocolG.cpp(4078): warning C4018: “<”: 有符号/无符号不匹配
+     1>protocol\11g\ProtocolG.cpp(4090): warning C4018: “<”: 有符号/无符号不匹配
+     1>protocol\11g\ProtocolG.cpp(4100): warning C4018: “<”: 有符号/无符号不匹配
+         applyLdpcEnc_ac.cpp
+     1>protocol\11n\applyLdpcEnc_ac.cpp(98): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         bcc_encoder.cpp
+     1>protocol\11n\bcc_encoder.cpp(99): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+         bitrev.cpp
+     1>protocol\11n\bitrev.cpp(22): warning C4627: “#include "primaryFunctionalFunc.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“StdAfx.h”或重新生成预编译头
+         constants_def.cpp
+         conve.cpp
+     1>protocol\11n\conve.cpp(7): warning C4627: “#include "primaryFunctionalFunc.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“StdAfx.h”或重新生成预编译头
+         crc32.cpp
+         crc8.cpp
+     1>protocol\11n\crc8.cpp(3): warning C4627: “#include "primaryFunctionalFunc.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“StdAfx.h”或重新生成预编译头
+     1>protocol\11n\crc8.cpp(33): warning C4018: “<=”: 有符号/无符号不匹配
+         cshifts.cpp
+     1>protocol\11n\cshifts.cpp(24): warning C4627: “#include "primaryFunctionalFunc.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“StdAfx.h”或重新生成预编译头
+         DataSym.cpp
+     1>protocol\11n\DataSym.cpp(441): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>protocol\11n\DataSym.cpp(447): warning C4018: “<”: 有符号/无符号不匹配
+         fcycdel_g.cpp
+         fd2td_g.cpp
+     1>e:\802.11abgn_phy_11a\eitemplate\protocol\11n\ifft.h(27): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\802.11abgn_phy_11a\eitemplate\protocol\11n\ifft.h(34): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11n\fd2td_g.cpp(147): warning C4018: “<”: 有符号/无符号不匹配
+     1>protocol\11n\fd2td_g.cpp(148): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>protocol\11n\fd2td_g.cpp(179): warning C4018: “<”: 有符号/无符号不匹配
+     1>protocol\11n\fd2td_g.cpp(187): warning C4018: “<”: 有符号/无符号不匹配
+         InterfaceClass.cpp
+         interleave_n.cpp
+         ldpc_encoder.cpp
+         正在编译...
+         ldpc_encpara_g.cpp
+     1>protocol\11n\ldpc_encpara_g.cpp(53): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11n\ldpc_encpara_g.cpp(57): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11n\ldpc_encpara_g.cpp(60): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11n\ldpc_encpara_g.cpp(210): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11n\ldpc_encpara_g.cpp(235): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11n\ldpc_encpara_g.cpp(266): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11n\ldpc_encpara_g.cpp(270): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         mcs_tbl_ac.cpp
+     1>protocol\11n\mcs_tbl_ac.cpp(32): warning C4627: “#include "primaryFunctionalFunc.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“StdAfx.h”或重新生成预编译头
+     1>protocol\11n\mcs_tbl_ac.cpp(118): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+         parityMatrixGen.cpp
+         pilot_map.cpp
+     1>protocol\11n\pilot_map.cpp(175): warning C4018: “<”: 有符号/无符号不匹配
+     1>protocol\11n\pilot_map.cpp(179): warning C4018: “<”: 有符号/无符号不匹配
+     1>protocol\11n\pilot_map.cpp(187): warning C4018: “<”: 有符号/无符号不匹配
+     1>protocol\11n\pilot_map.cpp(189): warning C4018: “<”: 有符号/无符号不匹配
+     1>protocol\11n\pilot_map.cpp(191): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11n\pilot_map.cpp(201): warning C4018: “<”: 有符号/无符号不匹配
+     1>protocol\11n\pilot_map.cpp(203): warning C4018: “<”: 有符号/无符号不匹配
+     1>protocol\11n\pilot_map.cpp(215): warning C4018: “<”: 有符号/无符号不匹配
+         pilot_seq.cpp
+         preambleFunc.cpp
+     1>protocol\11n\preambleFunc.cpp(104): warning C4018: “<”: 有符号/无符号不匹配
+     1>protocol\11n\preambleFunc.cpp(105): warning C4018: “<”: 有符号/无符号不匹配
+     1>protocol\11n\preambleFunc.cpp(199): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11n\preambleFunc.cpp(237): warning C4018: “<”: 有符号/无符号不匹配
+     1>protocol\11n\preambleFunc.cpp(130): warning C4101: “k”: 未引用的局部变量
+     1>protocol\11n\preambleFunc.cpp(368): warning C4018: “<”: 有符号/无符号不匹配
+     1>protocol\11n\preambleFunc.cpp(578): warning C4018: “<”: 有符号/无符号不匹配
+     1>protocol\11n\preambleFunc.cpp(591): warning C4018: “<”: 有符号/无符号不匹配
+     1>protocol\11n\preambleFunc.cpp(604): warning C4018: “<”: 有符号/无符号不匹配
+     1>protocol\11n\preambleFunc.cpp(724): warning C4018: “<”: 有符号/无符号不匹配
+     1>protocol\11n\preambleFunc.cpp(737): warning C4018: “<”: 有符号/无符号不匹配
+         qam_map.cpp
+         qam_map256.cpp
+         scramble.cpp
+     1>protocol\11n\scramble.cpp(1): warning C4627: “#include "scramble.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“StdAfx.h”或重新生成预编译头
+         segment_parser.cpp
+     1>protocol\11n\segment_parser.cpp(24): warning C4627: “#include "primaryFunctionalFunc.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“StdAfx.h”或重新生成预编译头
+         stream_parser.cpp
+     1>protocol\11n\stream_parser.cpp(65): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11n\stream_parser.cpp(90): warning C4018: “<”: 有符号/无符号不匹配
+         transform_bits_num.cpp
+     1>protocol\11n\transform_bits_num.cpp(1): warning C4627: “#include "transform_bits_num.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“StdAfx.h”或重新生成预编译头
+     1>protocol\11n\transform_bits_num.cpp(39): warning C4244: “+=”: 从“double”转换到“long”，可能丢失数据
+         txSymbolAssembly.cpp
+     1>protocol\11n\txSymbolAssembly.cpp(14): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11n\txSymbolAssembly.cpp(32): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         wlan_consts_valueEXTERN.cpp
+         wlan_txparam.cpp
+     1>protocol\11n\wlan_txparam.cpp(300): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11n\wlan_txparam.cpp(336): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11n\wlan_txparam.cpp(353): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11n\wlan_txparam.cpp(365): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11n\wlan_txparam.cpp(403): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>protocol\11n\wlan_txparam.cpp(404): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>protocol\11n\wlan_txparam.cpp(405): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>protocol\11n\wlan_txparam.cpp(407): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>protocol\11n\wlan_txparam.cpp(409): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>protocol\11n\wlan_txparam.cpp(410): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>protocol\11n\wlan_txparam.cpp(411): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>protocol\11n\wlan_txparam.cpp(413): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11n\wlan_txparam.cpp(427): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11n\wlan_txparam.cpp(429): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>protocol\11n\wlan_txparam.cpp(430): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>protocol\11n\wlan_txparam.cpp(430): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>protocol\11n\wlan_txparam.cpp(431): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>protocol\11n\wlan_txparam.cpp(434): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11n\wlan_txparam.cpp(436): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>protocol\11n\wlan_txparam.cpp(437): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>protocol\11n\wlan_txparam.cpp(437): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>protocol\11n\wlan_txparam.cpp(439): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>protocol\11n\wlan_txparam.cpp(439): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>protocol\11n\wlan_txparam.cpp(440): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>protocol\11n\wlan_txparam.cpp(440): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>protocol\11n\wlan_txparam.cpp(482): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11n\wlan_txparam.cpp(485): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11n\wlan_txparam.cpp(487): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11n\wlan_txparam.cpp(614): warning C4018: “<”: 有符号/无符号不匹配
+     1>protocol\11n\wlan_txparam.cpp(635): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11n\wlan_txparam.cpp(644): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>protocol\11n\wlan_txparam.cpp(658): warning C4244: “=”: 从“double”转换到“unsigned int”，可能丢失数据
+         scale.cpp
+         Splash.cpp
+         SysConfigWizard.cpp
+         SysConfigWizardStep1.cpp
+         SysConfigWizardStep2.cpp
+         正在编译...
+         SysConfigWizardStep3.cpp
+     1>e:\802.11abgn_phy_11a\eitemplate\rapidxml/rapidxml_utils.hpp(40): warning C4244: “初始化”: 从“std::streamoff”转换到“size_t”，可能丢失数据
+                 e:\802.11abgn_phy_11a\eitemplate\rapidxml/rapidxml_utils.hpp(28): 编译类 模板 成员函数“rapidxml::file<>::file(const char *)”时
+                 SysConfigWizardStep3.cpp(103): 参见对正在编译的类 模板 实例化“rapidxml::file<>”的引用
+         SysConfigWizardStep3ViewDetail.cpp
+     1>e:\802.11abgn_phy_11a\eitemplate\rapidxml/rapidxml_utils.hpp(40): warning C4244: “初始化”: 从“std::streamoff”转换到“size_t”，可能丢失数据
+                 e:\802.11abgn_phy_11a\eitemplate\rapidxml/rapidxml_utils.hpp(28): 编译类 模板 成员函数“rapidxml::file<>::file(const char *)”时
+                 SysConfigWizardStep3ViewDetail.cpp(84): 参见对正在编译的类 模板 实例化“rapidxml::file<>”的引用
+         SysConfigWizardStep4.cpp
+         SysConfigWizardStep5.cpp
+         SysConfigWizardStep6.cpp
+         TabCarrier.cpp
+         TabInstrument.cpp
+         TabMac.cpp
+         TabParent.cpp
+         TabProtocolConfig.cpp
+     1>TabProtocolConfig.cpp(916): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TabProtocolConfig.cpp(917): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TabProtocolConfig.cpp(917): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TabProtocolConfig.cpp(1342): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>TabProtocolConfig.cpp(1838): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+         W.cpp
+     1>W.cpp(151): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>W.cpp(164): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>W.cpp(165): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>W.cpp(174): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>W.cpp(175): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>W.cpp(183): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>W.cpp(184): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>W.cpp(221): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>W.cpp(222): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>W.cpp(242): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>W.cpp(243): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>W.cpp(286): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>W.cpp(287): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>W.cpp(300): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>W.cpp(301): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>W.cpp(353): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>W.cpp(361): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>W.cpp(391): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>W.cpp(398): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>W.cpp(458): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>W.cpp(459): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>W.cpp(462): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>W.cpp(463): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>W.cpp(464): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>W.cpp(479): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>W.cpp(481): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>W.cpp(482): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>W.cpp(568): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>W.cpp(569): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>W.cpp(589): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>W.cpp(590): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>W.cpp(612): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>W.cpp(613): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>W.cpp(626): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>W.cpp(627): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>W.cpp(644): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>W.cpp(645): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>W.cpp(661): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>W.cpp(662): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\eiTemplate.res" eiTemplate.rc 
+       Link:
+         F:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\802.11abgn_phy_11a\Release\eiTemplate.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:E:\opencv\opencv\build\x86\vc10\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opencv_ml2410d.lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_objdetect2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_nonfree2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_videostab2410d.lib opencv_objdetect2410.lib opencv_ts2410.lib opencv_video2410.lib opencv_nonfree2410.lib opencv_ocl2410.lib opencv_photo2410.lib opencv_stitching2410.lib opencv_superres2410.lib opencv_videostab2410.lib opencv_calib3d2410.lib opencv_contrib2410.lib opencv_core2410.lib opencv_features2d2410.lib opencv_flann2410.lib opencv_gpu2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib opencv_ml2410.lib /MANIFEST /ManifestFile:"Release\eiTemplate.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\802.11abgn_phy_11a\Release\eiTemplate.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\802.11abgn_phy_11a\Release\eiTemplate.lib" /MACHINE:X86 Release\eiTemplate.res
+         Release\C.obj
+         Release\Cframe.obj
+         Release\CframeB.obj
+         Release\CframeConfig.obj
+         Release\CframeconfigB.obj
+         Release\CframeconfigG.obj
+         Release\CframeG.obj
+         Release\CframeGeneralB.obj
+         Release\CframeGeneralG.obj
+         Release\crc16.obj
+         Release\eiTemplate.obj
+         Release\eiTemplateDoc.obj
+         Release\eiTemplateView.obj
+         Release\FrameGeneral.obj
+         Release\func.obj
+         Release\GraphCCDF.obj
+         Release\GraphWAVE.obj
+         Release\SignalSource.obj
+         Release\MainFrm.obj
+         Release\MPDUGeneral.obj
+         Release\MySplitterWnd.obj
+         Release\ProtocolA.obj
+         Release\complex.obj
+         Release\ieee802.11b.obj
+         Release\ProtocolB.obj
+         Release\ProtocolG.obj
+         Release\applyLdpcEnc_ac.obj
+         Release\bcc_encoder.obj
+         Release\bitrev.obj
+         Release\constants_def.obj
+         Release\conve.obj
+         Release\crc32.obj
+         Release\crc8.obj
+         Release\cshifts.obj
+         Release\DataSym.obj
+         Release\fcycdel_g.obj
+         Release\fd2td_g.obj
+         Release\InterfaceClass.obj
+         Release\interleave_n.obj
+         Release\ldpc_encoder.obj
+         Release\ldpc_encpara_g.obj
+         Release\mcs_tbl_ac.obj
+         Release\parityMatrixGen.obj
+         Release\pilot_map.obj
+         Release\pilot_seq.obj
+         Release\preambleFunc.obj
+         Release\qam_map.obj
+         Release\qam_map256.obj
+         Release\scramble.obj
+         Release\segment_parser.obj
+         Release\stream_parser.obj
+         Release\transform_bits_num.obj
+         Release\txSymbolAssembly.obj
+         Release\wlan_consts_valueEXTERN.obj
+         Release\wlan_txparam.obj
+         Release\scale.obj
+         Release\Splash.obj
+         Release\stdafx.obj
+         Release\SysConfigWizard.obj
+         Release\SysConfigWizardStep1.obj
+         Release\SysConfigWizardStep2.obj
+         Release\SysConfigWizardStep3.obj
+         Release\SysConfigWizardStep3ViewDetail.obj
+         Release\SysConfigWizardStep4.obj
+         Release\SysConfigWizardStep5.obj
+         Release\SysConfigWizardStep6.obj
+         Release\TabCarrier.obj
+         Release\TabInstrument.obj
+         Release\TabMac.obj
+         Release\TabParent.obj
+         Release\TabProtocolConfig.obj
+         Release\W.obj
+     1>MainFrm.obj : error LNK2001: 无法解析的外部符号 _viClose@4
+     1>MainFrm.obj : error LNK2001: 无法解析的外部符号 _HtmlHelpA@16
+     1>MainFrm.obj : error LNK2001: 无法解析的外部符号 _viWrite@16
+     1>MainFrm.obj : error LNK2001: 无法解析的外部符号 _viRead@16
+     1>SysConfigWizardStep4.obj : error LNK2001: 无法解析的外部符号 _viClear@4
+     1>SysConfigWizardStep5.obj : error LNK2001: 无法解析的外部符号 _viOpenDefaultRM@4
+     1>SysConfigWizardStep5.obj : error LNK2001: 无法解析的外部符号 _viOpen@20
+     1>SysConfigWizardStep5.obj : error LNK2001: 无法解析的外部符号 _viSetAttribute@12
+     1>E:\802.11abgn_phy_11a\Release\eiTemplate.exe : fatal error LNK1120: 8 个无法解析的外部命令
+     1>已完成生成项目“E:\802.11abgn_phy_11a\eiTemplate\eiTemplate.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:10.43
